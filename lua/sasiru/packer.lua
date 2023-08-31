@@ -20,6 +20,7 @@ use({
 	end
     })
 
+    use "/home/sasiru/personal/plugins/stackmap.nvim"
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
